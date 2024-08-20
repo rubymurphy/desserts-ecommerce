@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text", sans-serif;
+    /* border: 1px solid red; */
+}
+body{
+    background-color:hsl(13, 31%, 94%); ;
+}
+.desserts-display h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: hsl(14, 65%, 9%);
+    font-weight: 700;
+}
+.display-box h1{
+    font-size: 15px;
+}
+.overall{
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color:hsl(20, 50%, 98%);
+    color: hsl(13, 31%, 94%);
+    color: hsl(14, 25%, 72%);
+    color: hsl(7, 20%, 60%);
+    color: hsl(12, 20%, 44%);
+    color: hsl(14, 86%, 42%);
+    color: hsl(159, 69%, 38%);
+}
+.desserts-display{
+    width: 69%;
+    margin-bottom: 60px;
+}
+.display-cont{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+.display-box{
+    width: 31%;
+    position: relative;
+}
+.food-image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.food-image img{
+    width: 100%;
+    height: 100%;
+}
+.cart-cont{
+    width:29%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    height: fit-content;
+}
+.cart-cont h1{
+    font-size: 25px;
+    color: hsl(14, 86%, 42%);
+}
+.empty-cart {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.empty-cart img{
+    width: 70%;
+    margin-left:15% ;
+    /* border: 1px solid red; */
+}
+.empty-cart p{
+    margin-top: 5px;
+    color:hsl(12, 20%, 44%); 
+    font-size: 14px;
+    text-align: center;
+}
+.add-cart{
+    display: inline-flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:20%;
+    top: -5%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid hsl(14, 86%, 42%);
+    cursor: pointer;
+}
+.add-cart p{
+    color: hsl(14, 65%, 9%);
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.add-cart:hover p{
+    color:hsl(14, 86%, 42%) ;
+}
+.select-item{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: hsl(14, 86%, 42%);
+    border: none;
+    position: absolute;
+    top: 56%;
+    left: 20%;
+    visibility: hidden;
+}
+.decrease-num{
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    fill: white;
+}
+.decrease-num:hover , .increase-num:hover{
+    background-color: white;
+    fill: hsl(14, 86%, 42%);
+}
+.increase-num{
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background-color:transparent;
+    cursor: pointer;
+    fill: white;
+}
+.dessert-info p{
+    font-size: 15px;
+    color: hsl(7, 20%, 60%);
+    margin-bottom: 10px;
+}
+.dessert-info h1{
+    color:hsl(14, 65%, 9%) ;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.dessert-info h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(14, 86%, 42%);
+}
