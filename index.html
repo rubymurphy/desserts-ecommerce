@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <section class="overall">
-        <div class="desserts-display">
-            <h1>DESSERTS</h1>
-            <div class="display-cont">
-            </div>
+      <div class="desserts-display">
+        <h1>DESSERTS</h1>
+        <div class="display-cont"></div>
+      </div>
+      <div class="cart-cont">
+        <h1>Your Cart (<span class="cart-total-quantity">0</span>)</h1>
+        <div class="empty-cart">
+          <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+          <p>Your added items will appear here</p>
         </div>
-        <div class="cart-cont">
-            <h1>Your Cart (<span class="cart-total">0</span>)</h1>
-            <div class="empty-cart">
-                <img src="./assets/images/illustration-empty-cart.svg" alt="">
-                <p>Your added items will appear here</p>
-            </div>
-            <div class="filled-cart">
-                <div class="item-box">
-                    <h1 class="item"></h1>
-                </div>
-            </div>
+        <div class="filled-cart">
+          <div class="item-box">
+            <h1 class="item"></h1>
+          </div>
+          <h1 class="cart-total-price"></h1>
         </div>
+      </div>
     </section>
-    <script src="product.js">
-        
-    </script>
-</body>
-
+    <script src="product.js"></script>
+  </body>
 </html>

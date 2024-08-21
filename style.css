@@ -83,15 +83,18 @@ body{
     font-size: 14px;
     text-align: center;
 }
+
+.add-cart-group {
+    position: relative;
+    left:20%;
+    top: -5%;
+}
 .add-cart{
     display: inline-flex;
     width: 60%;
     margin: auto;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left:20%;
-    top: -5%;
     padding: 10px;
     border-radius: 20px;
     border: 1px solid hsl(14, 86%, 42%);
@@ -118,8 +121,8 @@ body{
     background-color: hsl(14, 86%, 42%);
     border: none;
     position: absolute;
-    top: 56%;
-    left: 20%;
+    top: 0;
+    left: 0;
     visibility: hidden;
 }
 .decrease-num{
